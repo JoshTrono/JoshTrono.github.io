@@ -2,3 +2,7 @@ body {
     display: inline;
     width: 100%;
 }
+html {
+    background-color: lightseagreen;
+    padding-left: 20px;
+}
