@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,700;1,400&display=swap');
 
-
+ /* This is for my first page index is mainly about myself plus resume */
 
 html {
     background-image: url("./images/background.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size:cover;
     padding-left: 20px;
     scroll-behavior: smooth;
