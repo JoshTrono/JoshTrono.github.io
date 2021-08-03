@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,700;1,400&display=swap');
+
 nav {
     display: inline-block;
     list-style-type: none;
 
     list-style:none;
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
     text-align:center;
     width:100%;
+    height: 40px;
+    font-size: medium;
+    font-family: 'Georama', sans-serif;
+    
     
 }
 .nav ul {
@@ -29,4 +35,28 @@ li a {
     text-decoration: none;
     display:inline-block;
     padding: 1rem;
+}
+#myBtn {
+    color: red;
+    background: transparent;
+    width: 10%;
+    border: none;
+}
+#myBtn img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 100%;
+        font-size: 10px;
+        float:center;
+    }
+    nav ul {
+        padding: 5px;
+    }
+    li {
+        padding: 1px;
+        margin: 0;
+    }
 }
