@@ -36,19 +36,21 @@ li a {
     display:inline-block;
     padding: 1rem;
 }
+#myBtn img {
+    width: 50px;
+}
 #myBtn {
     color: red;
     background: transparent;
-    width: 10%;
     border: none;
-}
-#myBtn img {
     position: absolute;
     right: 5%;
-    bottom: -50%;
-    transform: translateY(-50%);
-    width: 10%;
+
+    transform: translateY(-120%);
 }
+
+
+
 
 @media only screen and (max-width: 600px) {
     nav {
@@ -62,5 +64,14 @@ li a {
     li {
         padding: 1px;
         margin: 0;
+    }
+    #myBtn {
+        color: red;
+        background: transparent;
+        width: 10%;
+        border: none;
+        position: absolute;
+        right: 5%;
+        transform: translateY(-120%);
     }
 }
