@@ -46,8 +46,12 @@ p {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-footer {
-    overflow:scroll;
+h1 {
+    color: white;
+}
+li {
+    float: left;
+    width: 90%;
 }
 
 @media only screen and (max-width: 600px) {
