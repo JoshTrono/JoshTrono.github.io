@@ -6,10 +6,8 @@ html {
     background-image: url("./images/background.png");
     background-repeat: no-repeat; 
     background-size:cover;
-    padding-left: 20px;
     overflow: scroll;
     scroll-behavior: smooth;
-    padding-top: 10px;
 }
 body {
     display: inline;
@@ -48,10 +46,6 @@ p {
 }
 h1 {
     color: white;
-}
-li {
-    float: left;
-    width: 90%;
 }
 
 @media only screen and (max-width: 600px) {
