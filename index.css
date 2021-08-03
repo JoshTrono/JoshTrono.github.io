@@ -58,4 +58,11 @@ li {
     img {
         width: 100%;
     }
+    h1 {
+        color: white;
+    }
+    ol {
+        float: center;
+        margin: 0 auto;
+    }
 }
