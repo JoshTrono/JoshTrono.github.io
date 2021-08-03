@@ -6,8 +6,10 @@ html {
     background-image: url("./images/background.png");
     background-repeat: no-repeat; 
     background-size:cover;
+
     overflow: scroll;
     scroll-behavior: smooth;
+
 }
 body {
     display: inline;
@@ -21,20 +23,21 @@ body > img {
 p {
     font-size: 15px;
 }
-.container {
+body {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 3rem;
     margin-top: 4rem;
     text-align: center;
 }
-h1 {
+.container h1 {
+    padding-top: 10px;
     color: darkred;
-    font-size: 3rem;
-}
-h2 {
-    color: gray;
     font-size: 2rem;
+}
+body h2 {
+    color: gray;
+    font-size: 1rem;
 }
 p {
     color: white;
@@ -47,16 +50,22 @@ p {
 h1 {
     color: white;
 }
+ 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
     img {
         width: 100%;
+    }
+    body{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    ol {
+        padding: 0;
+        margin: 0;
     }
     h1 {
         color: white;
     }
-    ol {
-        float: center;
-        margin: 0 auto;
-    }
+
 }
