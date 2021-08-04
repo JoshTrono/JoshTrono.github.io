@@ -69,6 +69,7 @@ ol {
     body{
         margin-bottom: 0px;
         padding-bottom: 0px;
+        width: 80%;
     }
     ol {
         padding: 0;
