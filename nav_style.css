@@ -45,9 +45,9 @@ nav li a {
     background: transparent;
     border: none;
     position: absolute;
-    right: 5%;
+    right: 3%;
 
-    transform: translateY(-10%);
+    transform: translateY(-90%);
 }
 
 
@@ -70,9 +70,10 @@ nav li a {
         color: red;
         background: transparent;
         width: 10%;
+        background-size: cover;
         border: none;
         position: absolute;
-        right: 8%;
-        transform: translateY(-50%);
+        right: 10%;
+        transform: translateY(-80%);
     }
 }
