@@ -66,7 +66,9 @@ nav li a {
         padding: 1px;
         margin: 0;
     }
+
     #myBtn {
+        display: inline-block;
         color: red;
         background: transparent;
         width: 10%;
@@ -77,4 +79,5 @@ nav li a {
         transform: translateY(-80%);
         margin-left: 0; 
     }
+    
 }
