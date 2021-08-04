@@ -52,16 +52,50 @@ h1 {
 }
 ol > li  {
         float: center;
-        width: 100%;
-        margin: 0px 10px 0px 10px;
+        width: 80%;
+        margin: 0 auto;
 }
 ol {
     padding: 0;
     margin: 0 auto;
+    float:center;
     width: 80%;
 
 }
 
+/*list for internship */
+dl {
+    border: 2px solid black;
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+dt {
+    float: left;
+    clear: left;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+
+}
+dd {
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0px 0 0 120px;
+    padding: 10px;
+    color: black;
+    text-align: left;
+    height:70px;
+
+
+}
 @media only screen and (max-width: 900px) {
     img {
         width: 100%;
@@ -77,6 +111,9 @@ ol {
     }
     h1 {
         color: white;
+    }
+    dd {
+        font-size: 12px;
     }
 
 }
