@@ -5,6 +5,7 @@ html {
     background-repeat: no-repeat;
     background-size:cover;
 }
+/*
 dl {
     background-color: darkgray;
     background-size: contain;
@@ -30,10 +31,33 @@ dd {
     padding: 0 0 0.5em 0;
     color: black;
 }
+*/
+.a {
+  margin-top: 80px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 10px;  
+}
 
 /* Picture */
 a img {
     display: block;
     width:50%;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px){
+    dd {
+      font-size: 13px;  
+      text-align: center;
+      font-weight: bold;
+      
+    }
+    dl {
+        border-bottom: 1px solid black;
+        transform:translateY(15px);
+    }
+    dl::content {
+        border-bottom: 1px solid black;
+    }
 }
