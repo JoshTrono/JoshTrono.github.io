@@ -72,7 +72,7 @@ nav li a {
         width: 10%;
         border: none;
         position: absolute;
-        right: 2%;
+        right: 8%;
         transform: translateY(-50%);
     }
 }
