@@ -79,5 +79,9 @@ nav li a {
         transform: translateY(-80%);
         margin-left: 0; 
     }
+    .buttom button {
+        padding-left: 30px;
+        padding-right:20px;
+    }
     
 }
