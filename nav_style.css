@@ -46,7 +46,7 @@ nav li a {
     border: none;
     position: absolute;
     right: 3%;
-
+    margin-left: 0;
     transform: translateY(-90%);
 }
 
