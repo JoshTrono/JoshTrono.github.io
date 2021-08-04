@@ -6,9 +6,7 @@ html {
     background-image: url("./images/background.png");
     background-repeat: no-repeat; 
     background-size:cover;
-    width: 100%;
-    overflow: scroll;
-    scroll-behavior: smooth;
+
 
 }
 body {
@@ -16,6 +14,8 @@ body {
     width: 100%;
     font-family: 'Georama', sans-serif;
     scroll-behavior: auto;
+    overflow: scroll;
+    scroll-behavior: smooth;
 }
 body > img {
     border: 5px;
@@ -96,6 +96,21 @@ dd {
 
 
 }
+
+/*for my skills and cert */
+ol {
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    list-style-type: none;
+
+}
+ol > li {
+    border: 1px solid black;
+    width: 100%;
+}
+
+
 @media only screen and (max-width: 900px) {
     img {
         width: 100%;
