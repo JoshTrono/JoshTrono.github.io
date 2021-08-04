@@ -6,7 +6,7 @@ html {
     background-image: url("./images/background.png");
     background-repeat: no-repeat; 
     background-size:cover;
-
+    width: 100%;
     overflow: scroll;
     scroll-behavior: smooth;
 
@@ -50,7 +50,17 @@ p {
 h1 {
     color: white;
 }
- 
+ol > li  {
+        float: center;
+        width: 100%;
+        margin: 0px 10px 0px 10px;
+}
+ol {
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+
+}
 
 @media only screen and (max-width: 900px) {
     img {
@@ -62,7 +72,7 @@ h1 {
     }
     ol {
         padding: 0;
-        margin: 0;
+        margin: 0 auto;
     }
     h1 {
         color: white;

@@ -71,7 +71,7 @@ li a {
         width: 10%;
         border: none;
         position: absolute;
-        right: 5%;
-        transform: translateY(-120%);
+        right: 2%;
+        transform: translateY(-50%);
     }
 }
