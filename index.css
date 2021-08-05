@@ -42,6 +42,7 @@ p {
     color: white;
 
 }
+/* This is my top image */
 .images {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -49,6 +50,7 @@ p {
 h1 {
     color: white;
 }
+ /* list for my certifications */
 ol > li  {
         float: center;
         width: 80%;
@@ -108,8 +110,16 @@ ol > li {
     border: 1px solid black;
     width: 100%;
 }
-
-
+ /* Button */
+#myBtn {
+    color: red;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 3%;
+    margin-left: 0;
+    transform: translateY(-90%);
+}
 @media only screen and (max-width: 900px) {
     img {
         width: 100%;
@@ -132,6 +142,17 @@ ol > li {
     dd {
         font-size: 11px;
         padding-bottom: 35px;
+    }
+    #myBtn {
+        display: inline-block;
+        color: red;
+        background: transparent;
+        width: 10%;
+        background-size: cover;
+        border: none;
+        position: absolute;
+        right: 10%;
+        transform: translateY(-80%);
     }
 
 }
